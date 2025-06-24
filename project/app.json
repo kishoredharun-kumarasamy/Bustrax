@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "BusTraX",
+    "slug": "bustrax-driver-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/1ea40df3-1138-44f3-a96d-e4cb4f2dd826.jpg",
+    "scheme": "bustrax",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/1ea40df3-1138-44f3-a96d-e4cb4f2dd826.jpg"
+    },
+    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
